@@ -1,0 +1,92 @@
+
+    /* Estilos generales para centrar y dar fondo */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #1a1c23; /* Fondo oscurito pero elegante */
+        color: #e2e8f0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    /* Título lindo */
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #ffffff;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+
+    /* Contenedor del formulario (tarjeta con fondo clarito pero oscurito) */
+    form {
+        background-color: #242838; /* Un tono gris-azulado suave y sofisticado */
+        padding: 30px 40px;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        width: 100%;
+        max-width: 400px;
+        box-sizing: border-box;
+    }
+
+    /* Cada grupo de campo */
+    div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Etiquetas ordenadas */
+    label {
+        font-size: 0.9rem;
+        margin-bottom: 8px;
+        color: #94a3b8;
+        font-weight: 500;
+    }
+
+    /* Campos para rellenar formales */
+    input {
+        background-color: #1e2230;
+        border: 1.5px solid #333849;
+        border-radius: 8px;
+        padding: 12px 14px;
+        font-size: 1rem;
+        color: #ffffff;
+        outline: none;
+        transition: all 0.3s ease;
+    }
+
+    /* Efecto cuando el usuario hace clic en un campo */
+    input:focus {
+        border-color: #6366f1; /* Tono violeta moderno */
+        box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+    }
+
+    /* Botón grande y de color lindo */
+    button[type="submit"] {
+        background: linear-gradient(135deg, #6366f1, #4f46e5);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 14px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        width: 100%;
+        transition: transform 0.2s ease, opacity 0.2s ease;
+        margin-top: 10px;
+    }
+
+    /* Efecto al pasar el mouse por el botón */
+    button[type="submit"]:hover {
+        opacity: 0.9;
+        transform: translateY(-1px);
+    }
+
+    /* Efecto al hacer clic en el botón */
+    button[type="submit"]:active {
+        transform: translateY(0);
+    }
